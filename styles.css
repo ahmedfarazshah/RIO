@@ -20,11 +20,39 @@ nav div {
     margin: 10px;
 }
 .services{
-    background-color: white;
     color: rebeccapurple;
-    width: 220px;
+    width: 488px;
     font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 a{
+    color: white;
+    text-decoration: none;
+}
+svg{
+    width: 30px;
+    color: palegoldenrod;
+}
+svg:hover{
+    border-radius: 200px;
+    box-shadow: white 0px 0px 10px 1px;
+    cursor: pointer;
+    color: darkturquoise;
+}
+.login{
     color: black;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.login a {
+    background-color: yellow;
+    color: black;
+    width: 86px;
+    text-align: center;
+
 }
