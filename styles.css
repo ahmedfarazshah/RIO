@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 70px;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 70px;
+
+}
+nav img{
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px 1px rebeccapurple;
+}
+nav div {
+    margin: 10px;
+}
+.services{
+    background-color: white;
+    color: rebeccapurple;
+    width: 220px;
+    font-size: 16px;
+}
+a{
+    color: black;
+}
