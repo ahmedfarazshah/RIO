@@ -121,5 +121,26 @@ svg:hover{
 
 footer{
     height: 13.2vh;
-    background: linear-gradient(90deg, black, darkgrey);
+    background: linear-gradient(111deg, darkslategrey, whi);
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    width: 20vh;
+    margin-left: 11px;
+}
+.links h2,p{
+    font-size: medium;
+    margin: 2px;
+    padding: 0px;
+}
+.links h2{
+    margin-bottom: 6px;
+}
+
+.heading{
+    width: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
