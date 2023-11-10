@@ -41,7 +41,8 @@ svg{
 }
 svg:hover{
     border-radius: 200px;
-    box-shadow: white 0px 0px 10px 1px;
+    filter: drop-shadow(0px 0px 19px black);
+    /* box-shadow: 0px 10px 10px 1px  white ; */
     cursor: pointer;
     color: darkturquoise;
 }
